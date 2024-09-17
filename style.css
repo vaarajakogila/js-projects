@@ -1,0 +1,104 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, hsl(210, 100%, 50%), hsl(39, 100%, 60%));
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+#myh1{
+    margin-bottom: 30px;
+    color: hsla(240, 3%, 7%, 0.895);
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+  
+}
+.weatherForm {
+    margin-bottom: 20px;
+}
+
+.cityInput {
+    padding: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+}
+
+.cityInput:focus {
+    outline: none;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+}
+
+button[type="submit"] {
+    padding: 15px 30px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #e65c52;
+    transform: translateY(-2px);
+}
+
+.card {
+    background: linear-gradient(180deg, hsl(210, 100%, 75%) , hsl(39, 100%, 75%));
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.cityDisplay, .tempDisplay {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: hsl(0, 0%, 30%);
+}
+
+.humidityDisplay, .descDisplay {
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: hsl(0, 0%, 40%);
+}
+
+.weatherEmoji {
+    font-size: 6rem;
+    margin: 15px 0;
+}
+
+.errorDisplay {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: red;
+    margin-top: 20px;
+}
