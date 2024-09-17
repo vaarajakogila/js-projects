@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background-color: beige;
+}
+#button {
+    display: inline-block;  /* Makes the button only take the space it needs */
+    margin: 300px 120px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #d47fd705;
+    color: rgb(20, 20, 20);
+    transition: background-color 0.3s;
+}
+
+#button:hover {
+    background-color: #6b696d;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+
+    padding: 70px;
+    
+}
+#heading{
+    margin-bottom: 30px;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+#clock{
+    
+    font-size: 6rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(217, 141, 105);
+    backdrop-filter: blur(3px);
+    border: 4px solid rgb(7, 7, 7) ;
+    padding: 30px;
+    border-radius: 50px;
+    background-color: rgb(225, 230, 235);
+    
+}
